@@ -8,12 +8,11 @@ window.onload = function() {
           let item = data[i];
 
           let product = `
-            <div class="featuredkicks${i+1}">
+            <div class="featuredkicks"${i+1}>
             <img src="${item.img}" alt="productimg" class="images">
-            <div class="text">
             <h3>${item.name}</h3>
-            <p class="price">${item.price}</p>
-            </div>
+            <p>${item.price}</p>
+            <button>Add to Cart</button>
             </div>
           `;
 
