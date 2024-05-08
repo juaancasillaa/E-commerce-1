@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <title>Contact Us</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="menu.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="menu.html" class="logo">JCKICKS</a></li>
+                <li><img class="bag"  alt="bag" src="images/bag.png"></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="form">
+                <div class="contact-info">
+                    <h3 class="title" >Let's get in touch</h3>
+    
+                    <p class="text">
+                        Thank you for reaching out! Whether you're interested in volunteering, 
+                        have questions about next events, or just want to say hello, we're here to help. 
+                        Please fill out the this form, and we'll get back to you as soon as possible. 
+                        Together, we can make a difference in the fight against hunger!
+                    </p>
+    
+                    <div class="info">
+                        <div class="information">
+                            <img src="images/person.png" class="icon" alt=".">
+                            <p>Maria Andreina Torrealba</p>
+                        </div>
+                        <div class="information">
+                            <img src="images/person.png" class="icon" alt=".">
+                            <p>Ryan Moye</p>
+                        </div>
+                        <div class="information">
+                            <img src="images/person.png" class="icon" alt=".">
+                            <p>Vyncent Harris</p>
+                        </div>
+                        <div class="information">
+                            <img src="images/person.png" class="icon" alt=".">
+                            <p>Juan Casilla</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="contact-form">
+    
+                    <form action="contact.html" autocomplete="off" id="form">
+                        <div id="error">
+                        <h3 class="title">Contact us</h3>
+                        <div class="input-container">
+                          <input type="text" name="name" class="input"/>
+                          <label for=".">First Name</label>
+                          <span>First Name</span>
+                          <small>First Name is REQUIRED</small>
+                        </div>
+                        <div class="input-container">
+                            <input type="text" name="name" class="input"/>
+                            <label for=".">Last Name</label>
+                            <span>Last Name</span>
+                            <small>Last Name is REQUIRED</small>
+                          </div>
+                        <div class="input-container">
+                          <input type="email" name="email" class="input"/>
+                          <label for=".">Email</label>
+                          <span>Email</span>
+                          <small>Email is REQUIRED</small>
+                        </div>
+                        <div class="input-container">
+                          <input type="tel" name="phone" class="input"/>
+                          <label for=".">Phone</label>
+                          <span>Phone</span>
+                          <small>Phone is REQUIRED</small>
+                        </div>
+                        <div class="input-container textarea">
+                          <textarea name="message" class="input"></textarea>
+                          <label for=".">Message</label>
+                          <span>Message</span>
+                        </div>
+                        <button type="submit" value="Send" class="btn">Send</button>
+                        </div>
+                    </form>
+                    
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="http://127.0.0.1:3000/menu.html">JCKICKS</a></li>
+            <li><a href="#">Terms of service</a></li>
+            <li><a href="https://aws.amazon.com/amplify/?gclid=Cj0KCQjw_-GxBhC1ARIsADGgDjvTjyt9e8QpcvFu4drDofIqLgR6djJ5eNmAJ0pVlOnuyhiUW3MCvx8aAuttEALw_wcB&trk=9eb02e4d-80e0-4f27-a621-b90b3c870bf3&sc_channel=ps&ef_id=Cj0KCQjw_-GxBhC1ARIsADGgDjvTjyt9e8QpcvFu4drDofIqLgR6djJ5eNmAJ0pVlOnuyhiUW3MCvx8aAuttEALw_wcB:G:s&s_kwcid=AL!4422!3!651751060764!e!!g!!aws%20amplify!19852662236!145019201417">Powerd by AWS Amplify</a></li>
+            <li><a href="#">Refund policy</a></li>
+            <li><a href="#">Terms of service</a></li>
+            <li><a href="#">Shipping policy</a></li>
+        </ul>
+    </footer>
+    <script src="contact.js"></script>
+</body>
+</html>

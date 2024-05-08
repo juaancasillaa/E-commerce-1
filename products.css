@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: black;
+    height: 150px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+nav li {
+    text-align: center;
+    padding: 20px 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+li a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.logo {
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 70px;
+    cursor: pointer;
+    margin: 400px;
+    padding-right: 150px;
+}
+
+.logo:hover {
+    text-decoration: none;
+}
+
+.bag {
+    height: 30px;
+    cursor: pointer;
+}
+
+.title{
+    margin: 100px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    margin: 100px;
+}
+
+.images {
+    width: 400px;
+}
+
+.text {
+    text-align: justify;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.text:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+footer {
+    background-color: black;
+    height: 100px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+footer li {
+    text-align: center;
+    padding: 35px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+li a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
