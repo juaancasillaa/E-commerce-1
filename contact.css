@@ -7,6 +7,8 @@ body {
   font-family: "Kanit", sans-serif;
   font-weight: 400;
   font-style: normal;
+  background: url(images/wallpaper.png);
+  background-size: cover;
 }
 
 nav {
@@ -62,7 +64,6 @@ li a:hover {
   position: relative;
   width: 100%;
   min-height: 83vh;
-  padding: 2rem;
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -304,9 +305,6 @@ li a:hover {
 }
 
 @media (max-width: 480px) {
-  .container {
-    padding: 1.5rem;
-  }
 
   .contact-info:before {
     display: none;

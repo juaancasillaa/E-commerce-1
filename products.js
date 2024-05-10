@@ -10,7 +10,8 @@ window.onload = function() {
           let product = `
             <div class="featuredkicks"${i+1}>
             <img src="${item.img}" alt="productimg" class="images">
-            <h3>${item.name}</h3>
+            <h1>${item.name}</h1>
+            <h3>${item.description}</h3>
             <p>${item.price}</p>
             <button>Add to Cart</button>
             </div>

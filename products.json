@@ -1,62 +1,74 @@
 [
     {
         "img": "/images/jbalvin.webp",
-        "name": "J. Balvin x Air Jordan 3 Retro Medellin Sunset",
+        "name": "Air Jordan 3",
+        "description": "J. Balvin x Air Jordan 3 Retro Medellin Sunset",
         "price": "$400.00 USD"
     },
     {
         "img": "/images/ivory.webp",
-        "name": "Air Jordan 3 Retro SE Craft - Ivory",
+        "name": "Air Jordan 3",
+        "description": "Air Jordan 3 Retro SE Craft - Ivory",
         "price": "$265.00 USD"
     },
     {
         "img": "/images/darkmocha.webp",
-        "name": "Air Jordan 1 Retro High OG Dark Mocha",
+        "name": "Air Jordan 1",
+        "description": "Air Jordan 1 Retro High OG Dark Mocha",
         "price": "$465.00 USD"
     },
     {
         "img": "/images/militaryblack.webp",
-        "name": "Air Jordan 4 Retro Military Black",
+        "name": "Air Jordan 4",
+        "description": "Air Jordan 4 Retro Military Black",
         "price": "$350.00 USD"
     },
     {
         "img": "/images/bbwwhiteforum.webp",
-        "name": "Bad Bunny x Forum Buckle Low Last Forum",
+        "name": "Adidas Forum",
+        "description": "Bad Bunny x Forum Buckle Low Last Forum",
         "price": "$280.00 USD"
     },
     {
         "img": "/images/newbred.webp",
-        "name": "Air Jordan 4 Retro Bred Reimagined",
+        "name": "Air Jordan 4",
+        "description": "Air Jordan 4 Retro Bred Reimagined",
         "price": "$330.00 USD"
     },
     {
         "img": "/images/powerpuffgreen.webp",
-        "name": "The Powerpuff Girls x Dunk Low Pro SB QS Buttercup",
+        "name": "Nike Dunks",
+        "description": "The Powerpuff Girls x Dunk Low Pro SB QS Buttercup",
         "price": "$340.00 USD"
     },
     {
         "img": "/images/powerpuffblue.webp",
-        "name": "The Powerpuff Girls x Dunk Low Pro SB QS Buttercup",
+        "name": "Nike Dunks",
+        "description": "The Powerpuff Girls x Dunk Low Pro SB QS Buttercup",
         "price": "$400.00 USD"
     },
     {
         "img": "/images/powerpuffpink.webp",
-        "name": "The Powerpuff Girls x Dunk Low Pro SB QS Buttercup",
+        "name": "Nike Dunks",
+        "description": "The Powerpuff Girls x Dunk Low Pro SB QS Buttercup",
         "price": "$360.00 USD"
     },
     {
         "img": "/images/saltemarine.webp",
-        "name": "Yeezy Slides Slate Marine",
+        "name": " Adidas Yeezy Slide",
+        "description": "Yeezy Slides Slate Marine",
         "price": "$170.00 USD"
     },
     {
         "img": "/images/wonderwhite.webp",
-        "name": "Bad Bunny x Response CL Wonder White",
+        "name": "Adidas Response CL",
+        "description": "Bad Bunny x Response CL Wonder White",
         "price": "$280.00 USD"
     },
     {
         "img": "/images/olive.webp",
-        "name": "Travis Scott x Wmns Air Jordan 1 Low OG Olive",
+        "name": "Air Jordan 1 Low",
+        "description": "Travis Scott x Wmns Air Jordan 1 Low OG Olive",
         "price": "$1,200.00 USD"
     }
 ]
