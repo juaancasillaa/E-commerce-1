@@ -171,7 +171,7 @@ li a:hover {
 
     .title {
         margin: 50px 0;
-        font-size: 30px;
+        font-size: 40px;
     }
     .box {
         grid-template-columns: repeat(1, 1fr);
@@ -182,7 +182,7 @@ li a:hover {
     }
 
     video {
-        width: 300px;
+        width: 430px;
     }
 
     footer a {
@@ -193,7 +193,7 @@ li a:hover {
     }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width:768px) and (max-width: 1024px) {
     nav {
         height: 100%;
     }
@@ -209,6 +209,10 @@ li a:hover {
         font-size: 40px;
     }
 
+    video {
+        width: 768px;
+    }
+
     .title {
         margin: 70px 0;
     }
@@ -222,11 +226,6 @@ li a:hover {
         width: 600px;
         height: 550px;
         margin-left: 70px;
-    }
-
-    video{
-        width: 48rem;
-        height: 100%;
     }
 
     .images {
