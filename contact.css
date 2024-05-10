@@ -276,7 +276,7 @@ li a:hover {
 }
 
 @media (max-width: 850px) {
-    
+  
   .form {
     grid-template-columns: 1fr;
   }
@@ -325,6 +325,16 @@ li a:hover {
 
   .title {
     font-size: 1.15rem;
+  }
+
+  .social-icons a {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+  }
+
+  .icon {
+    width: 23px;
   }
 
   .input {
