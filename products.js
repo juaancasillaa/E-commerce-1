@@ -6,7 +6,7 @@ window.onload = function() {
         for (let i = 0; i < data.length; i++) {
 
           let item = data[i];
-
+  
           let product = `
             <div class="featuredkicks"${i+1}>
             <img src="${item.img}" alt="productimg" class="images">
@@ -19,14 +19,13 @@ window.onload = function() {
           productsHtml += product;
         }
 
-
         let productsContainer = document.getElementsByClassName("box")[0]
 
         productsContainer.innerHTML = productsHtml;
       })
       
       .catch((error) => {
-        console.error("Error fetching wheather data:", error);
+        console.error("Error fetching data from json file:", error);
       });
 
   };
