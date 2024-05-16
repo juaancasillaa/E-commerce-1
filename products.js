@@ -1,5 +1,5 @@
 window.onload = function() {
-    fetch("/json/products.json")
+    fetch("products.json")
       .then((response) => response.json())
       .then((data) => {
         let productsHtml = "";
