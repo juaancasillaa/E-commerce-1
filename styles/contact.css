@@ -7,7 +7,7 @@ body {
   font-family: "Kanit", sans-serif;
   font-weight: 400;
   font-style: normal;
-  background: url(images/wallpaper.png);
+  background: url(/images/wallpaper.png);
   background-size: cover;
 }
 
